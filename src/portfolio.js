@@ -127,7 +127,7 @@ const educationInfo = {
     {
       schoolName: "Priyadarshini College Of Engineering",
       logo: require("./assets/images/download.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor of Engineering in Computer Science",
       duration: "August 2019 - June 2023",
       desc: "Took courses about Software Engineering, Web Security, Operating Systems, ..."
       // descBullets: [""]
@@ -255,50 +255,53 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Project Patient",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Contributed to patient documentation and implemented software solutions in a collaborative software development project.",
+      image: require("./assets/images/Monica_2024-01-04_13-54-04.png"),
+      imageAlt: "Patient Document",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Document",
+          url: "https://drive.google.com/file/d/1xvJM3GmO9UXTVIMBGo7ZhF8wJeWgMubz/view?usp=sharing"
         }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Solve 500+ DSA Questions ",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        " Solved Over 300+ Coding Questions on Differrent Coding Websites.",
+      image: require("./assets/images/Monica_2024-01-04_13-51-14.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "leetcode",
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        },
+        {
+          name: "GFG",
+          url: "https://auth.geeksforgeeks.org/user/diyundiwyhg"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "5 STAR in Java and 4 STAR Cpp",
+      subtitle: "Solved over 100+ Problems ",
+      image: require("./assets/images/Monica_2024-01-04_14-00-56.png"),
+      imageAlt: "logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Profile URL",
+          url: "https://www.hackerrank.com/profile/diyundihritik"
         }
       ]
     }
@@ -366,8 +369,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 9689425993",
+  email_address: "diyundihritik@gmail.com"
 };
 
 // Twitter Section
